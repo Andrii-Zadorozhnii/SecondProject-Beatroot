@@ -1,6 +1,7 @@
 .project {
     padding-top: 30px;
-margin-bottom: 120px;
+    margin-bottom: 120px;
+
     &-title {
 
         font-weight: 700;
@@ -13,9 +14,14 @@ margin-bottom: 120px;
 
 
     &-one {
-        max-height: 527px;
-        height: 100%;
+        min-height: 527px;
         display: flex;
+        gap: 70px;
+        flex: 1;
+        flex-wrap: wrap;
+        margin-bottom: 120px;
+
+
         &__images {
             max-height: 527px;
             height: 100%;
@@ -25,21 +31,170 @@ margin-bottom: 120px;
             &-bg {
                 position: absolute;
                 left: 0;
+                max-width: 585px;
+                width: 100%;
+                max-height: 470px;
+                height: 100%;
             }
 
             &-img {
                 position: relative;
                 left: 215px;
                 top: 57px;
-                z-index: 999;
+
+                max-height: 470px;
+            }
+        }
+
+        &__description {
+            padding-top: 151px;
+            width: 470px;
+
+            
+
+            &-sibtitle {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 27px;
+                color: #2C4058;
+            }
+
+            &-title {
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 54px;
+                color: #2C4058;
+                margin-bottom: 19px;
+            }
+
+            &-info {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #2C4058;
+                margin-bottom: 40px;
+            }
+
+            &-button {
+                padding: 16px 41px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                background: inherit;
+                border: 1px solid #2C4058;
+                margin-bottom: 60px;
             }
 
 
+            &-location {
+
+                display: flex;
+
+
+                &-block {
+
+
+                    & img {
+                        display: block;
+                        width: 9px;
+                        position: relative;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
         }
-
-
     }
 
+    &-two {
+        min-height: 527px;
+        display: flex;
+        gap: 70px;
+        flex: 1;
+        flex-wrap: wrap;
+        margin-bottom: 150px;
 
 
+        &__images {
+            max-height: 527px;
+            height: 100%;
+            max-width: 845px;
+            width: 100%;
+
+            &-bg {
+                position: absolute;
+                right: 0;
+                max-width: 585px;
+                width: 100%;
+                max-height: 470px;
+                height: 100%;
+            }
+
+            &-img {
+                position: relative;
+                top: 57px;
+                display: flex;
+                max-height: 470px;
+            }
+        }
+
+        &__description {
+            padding-top: 151px;
+            width: 470px;
+            margin-left: 215px;
+
+            &-sibtitle {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 27px;
+                color: #2C4058;
+            }
+
+            &-title {
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 54px;
+                color: #2C4058;
+                margin-bottom: 19px;
+            }
+
+            &-info {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #2C4058;
+                margin-bottom: 40px;
+            }
+
+            &-button {
+                padding: 16px 41px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                background: inherit;
+                border: 1px solid #2C4058;
+                margin-bottom: 60px;
+            }
+
+            &-location {
+
+                display: flex;
+
+
+                &-block {
+
+
+                    & img {
+                        display: block;
+                        width: 9px;
+                        position: relative;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+        }
+    }
 }
