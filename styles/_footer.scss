@@ -1,1 +1,45 @@
+.footer {
+    background: url("../images/footer/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 203px 0 234px;
 
+
+
+    &-content {
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto;
+        max-height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &-logo {
+
+        max-width: 241px;
+        width: 100%;
+
+
+        &__link {
+            display: block;
+            margin-bottom: 41px;
+
+        }
+
+        &__copyrights {
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+    }
+
+    &-social{
+        max-width: 160px;
+        width: 100%;
+    }
+
+
+}

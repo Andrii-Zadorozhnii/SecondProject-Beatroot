@@ -3,18 +3,48 @@
     height: 100%;
     width: 100%;
     padding: 53px 215px;
-    background: url("../images/Background.jpg");
+    background: linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%), url("../images/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 40px;
+
+    @media screen and (max-width: 1400px){
+        padding: 53px 100px;
+    }
+    @media screen and (max-width: 1200px){
+        padding: 53px 50px;
+    }
+    @media screen and (max-width: 1200px){
+        
+        
+    }
+}
+.logo{
+
+    @media screen and (max-width: 962px){
+        margin: 0 auto;
+        margin-bottom: 20px;
+        
+    }
 }
 
 .menu-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin-bottom: 223px;
+    @media screen and (max-width: 1060px){
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+
+    
 }
 
 .menu-bar {
@@ -22,10 +52,22 @@
     max-width: 515px;
     width: 100%;
 
+    @media screen and (max-width: 962px){
+        margin: 0 auto;
+        margin-bottom: 20px;
+        
+    }
+
     & ul {
 
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 768px){
+            margin: 0 auto;
+            margin-bottom: 20px;
+            
+        }
     }
 }
 
@@ -54,10 +96,25 @@
     max-width: 160px;
     width: 100%;
 
+    @media screen and (max-width: 1030px){
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 962px){
+
+        margin: 0 auto;
+    }
+
     & ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media screen and (max-width: 888px){
+
+            margin: 0 auto;
+        }
 
         & li {
             border: 1px solid white;
@@ -85,6 +142,7 @@
         margin-bottom: 20px;
 
     }
+
     &-subtitle {
         font-weight: 400;
         font-size: 18px;
@@ -96,14 +154,28 @@
     }
 }
 
-.arrow-down{
+.arrow-down {
     display: block;
     width: 40px;
     height: 40px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes jump {
+    0% {
+        top: 0px;
+    }
 
+    50% {
+        top: -20px;
+    }
 
+    100% {
+        top: 0px;
+    }
+}

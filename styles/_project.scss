@@ -39,9 +39,10 @@
 
             &-img {
                 position: relative;
-                left: 215px;
-                top: 57px;
 
+                top: 57px;
+                margin-left: auto;
+                margin-right: 0;
                 max-height: 470px;
             }
         }
@@ -84,6 +85,8 @@
                 background: inherit;
                 border: 1px solid #2C4058;
                 margin-bottom: 60px;
+                width: 190px;
+                height: 50px;
             }
 
 
@@ -108,8 +111,10 @@
     }
 
     &-two {
+
         min-height: 527px;
         display: flex;
+        justify-content: space-between;
         gap: 70px;
         flex: 1;
         flex-wrap: wrap;
@@ -134,8 +139,9 @@
             &-img {
                 position: relative;
                 top: 57px;
-                display: flex;
                 max-height: 470px;
+                margin-right: auto;
+                margin-left: 0;
             }
         }
 

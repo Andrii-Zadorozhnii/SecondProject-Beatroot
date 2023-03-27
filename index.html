@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- slider -->
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./styles/main.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -36,17 +40,17 @@
         <div class="links">
           <ul>
             <li class="links-social">
-              <a href="./index.html"
+              <a href="https://www.facebook.com/"
                 ><img src="./images/./facebook-logo.svg" alt="facebook-link"
               /></a>
             </li>
             <li class="links-social">
-              <a href="./index.html"
+              <a href="https://twitter.com/"
                 ><img src="./images/twitter-logo.svg" alt="twitter-link"
               /></a>
             </li>
             <li class="links-social">
-              <a href="./index.html"
+              <a href="https://www.instagram.com/"
                 ><img src="./images/instagramm-logo.svg" alt="instagram-link"
               /></a>
             </li>
@@ -55,11 +59,12 @@
       </div>
       <h1 class="heading-name">SIMPLE & MODERN</h1>
       <p class="heading-subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-      <a class="arrow-down" href="./index.html"
+      <a class="arrow-down" href="#project1"
         ><img src="./images/arrow-down.svg" alt="arrow-down"
       /></a>
     </header>
-    <section class="project">
+
+    <section id="project1" class="project">
       <h2 class="project-title">WHAT WE DO</h2>
       <div class="project-one">
         <div class="project-one__images">
@@ -83,7 +88,10 @@
           </p>
           <button class="project-one__description-button">MORE DETAILS</button>
           <div class="project-one__description-location-block">
-            <a href="./index.html" class="project-one__description-location">
+            <a
+              href="https://goo.gl/maps/iqeMzAVgSWth5H1N6"
+              class="project-one__description-location"
+            >
               <img
                 src="./images/project-one/location-logo.svg"
                 alt="location-logo"
@@ -95,22 +103,27 @@
       </div>
       <div class="project-two">
         <div class="project-two__description">
-            <p class="project-two__description-subtitle">INTERNATIONAL</p>
-            <h2 class="project-two__description-title">COMMERCE CENTRE</h2>
-            <p class="project-two__description-info">
-                Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.
-            </p>
-            <button class="project-two__description-button">MORE DETAILS</button>
-            <div class="project-two__description-location-block">
-              <a href="./index.html" class="project-two__description-location">
-                <img
-                  src="./images/project-one/location-logo.svg"
-                  alt="location-logo"
-                />
-                Hong Kong - 1588 feet
-              </a>
-            </div>
+          <p class="project-two__description-subtitle">INTERNATIONAL</p>
+          <h2 class="project-two__description-title">COMMERCE CENTRE</h2>
+          <p class="project-two__description-info">
+            Successful businesses have many things in common, today we’ll look
+            at the big ‘R’ of recognition and how a digital advertising network
+            may help.
+          </p>
+          <button class="project-two__description-button">MORE DETAILS</button>
+          <div class="project-two__description-location-block">
+            <a
+              href="https://goo.gl/maps/JSUmfQsRJnzAcNK98"
+              class="project-two__description-location"
+            >
+              <img
+                src="./images/project-one/location-logo.svg"
+                alt="location-logo"
+              />
+              Hong Kong - 1588 feet
+            </a>
           </div>
+        </div>
         <div class="project-two__images">
           <img
             class="project-two__images-bg"
@@ -123,12 +136,494 @@
             alt="project-one-img"
           />
         </div>
-        
       </div>
     </section>
+
     <section class="news">
+      <h2 class="news__header">LATEST NEWS</h2>
+      <div class="slider-container swiper">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image1.png"
+                    alt="image1"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Free directories: directories are perfect for customers that
+                    are searching for...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image1-author.png"
+                      alt="image1"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALJA BRUN</h4>
+                    <p class="card-author__year">20 Jan 2020</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image2.png"
+                    alt="image2"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    EFFECTIVE ADVERTISING POINTERS.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Having a home based business is a wonderful asset to your
+                    life...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image2-author.png"
+                      alt="image2"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">DOMINIC FREEMAN</h4>
+                    <p class="card-author__year">13 Dec 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image3.png"
+                    alt="image3"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    HYPNOTIZE YOURSELF INTO THE GHOST.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    There are many things that are important to catalog
+                    design...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image3-author.png"
+                      alt="image3"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALICE WARD</h4>
+                    <p class="card-author__year">30 Nov 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image1.png"
+                    alt="image1"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Free directories: directories are perfect for customers that
+                    are searching for...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image1-author.png"
+                      alt="image1"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALJA BRUN</h4>
+                    <p class="card-author__year">20 Jan 2020</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image2.png"
+                    alt="image2"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    EFFECTIVE ADVERTISING POINTERS.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Having a home based business is a wonderful asset to your
+                    life...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image2-author.png"
+                      alt="image2"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">DOMINIC FREEMAN</h4>
+                    <p class="card-author__year">13 Dec 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image3.png"
+                    alt="image3"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    HYPNOTIZE YOURSELF INTO THE GHOST.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    There are many things that are important to catalog
+                    design...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image3-author.png"
+                      alt="image3"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALICE WARD</h4>
+                    <p class="card-author__year">30 Nov 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image1.png"
+                    alt="image1"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Free directories: directories are perfect for customers that
+                    are searching for...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image1-author.png"
+                      alt="image1"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALJA BRUN</h4>
+                    <p class="card-author__year">20 Jan 2020</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image2.png"
+                    alt="image2"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    EFFECTIVE ADVERTISING POINTERS.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    Having a home based business is a wonderful asset to your
+                    life...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image2-author.png"
+                      alt="image2"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">DOMINIC FREEMAN</h4>
+                    <p class="card-author__year">13 Dec 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay">
+                <div class="card-image">
+                  <img
+                    src="./images/news/card-img/Image3.png"
+                    alt="image3"
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3 class="card-info__header">
+                    HYPNOTIZE YOURSELF INTO THE GHOST.
+                  </h3>
+                  <p class="card-info__subtitle">
+                    There are many things that are important to catalog
+                    design...
+                  </p>
+                </div>
+                <div class="card-author">
+                  <div class="card-author__image">
+                    <img
+                      src="./images/news/card-img/Image3-author.png"
+                      alt="image3"
+                      class="card-img-author"
+                    />
+                  </div>
+                  <div class="card-author__info">
+                    <h4 class="card-author__name">ALICE WARD</h4>
+                    <p class="card-author__year">30 Nov 2019</p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
         
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-next swiper-navBtn-next">
+        <div class="left-arrow"></div>
+      </div>
+      <div class="swiper-button-prev swiper-navBtn-prev">
+        <div class="right-arrow"></div>
+      </div>
     </section>
-    <script src="./js/script.js"></script>
+
+    <section class="gallery">
+      <h2 class="gallery-header">GALLERY</h2>
+      <div class="gallery-images">
+        <div class="image1" onclick="openModal1()">
+          <img src="./images/gallery/images/Image1.jpg" alt="photo-city-1" />
+          <div class="img1-hover">
+            <img src="./images/gallery/bi_zoom-in.svg" alt="zoom" />
+          </div>
+        </div>
+
+        <div id="myModal1" class="modal">
+          <span class="close" onclick="closeModal1()">&times;</span>
+          <img class="modal-content" src="./images/gallery/images/Image1.jpg" />
+        </div>
+
+        <div class="image2" onclick="openModal2()">
+          <img src="./images/gallery/images/Image2.jpg" alt="photo-city-2" />
+          <div class="img2-hover">
+            <img src="./images/gallery/bi_zoom-in.svg" alt="zoom" />
+          </div>
+        </div>
+
+        <div id="myModal2" class="modal">
+          <span class="close" onclick="closeModal2()">&times;</span>
+          <img class="modal-content" src="./images/gallery/images/Image2.jpg" />
+        </div>
+
+        <div class="image3" onclick="openModal3()">
+          <img src="./images/gallery/images/Image3.png" alt="photo-city-3" />
+          <div class="img3-hover">
+            <img src="./images/gallery/bi_zoom-in.svg" alt="zoom" />
+          </div>
+        </div>
+        <div id="myModal3" class="modal">
+          <span class="close" onclick="closeModal3()">&times;</span>
+          <img class="modal-content" src="./images/gallery/images/Image3.png" />
+        </div>
+
+        <div class="image4" onclick="openModal4()">
+          <img src="./images/gallery/images/Image4.png" alt="photo-city-4" />
+          <div class="img4-hover">
+            <img src="./images/gallery/bi_zoom-in.svg" alt="zoom" />
+          </div>
+        </div>
+        <div id="myModal4" class="modal">
+          <span class="close" onclick="closeModal4()">&times;</span>
+          <img class="modal-content" src="./images/gallery/images/Image4.png" />
+        </div>
+
+        <div class="image5" onclick="openModal5()">
+          <img src="./images/gallery/images/Image5.png" alt="photo-city-5" />
+          <div class="img5-hover">
+            <img src="./images/gallery/bi_zoom-in.svg" alt="zoom" />
+          </div>
+        </div>
+        <div id="myModal5" class="modal">
+          <span class="close" onclick="closeModal5()">&times;</span>
+          <img class="modal-content" src="./images/gallery/images/Image5.png" />
+        </div>
+      </div>
+      <a href="./index.html"><button class="project-one__description-button gallery-button">
+        SEE MORE
+      </button></a>
+    </section>
+    <section class="contacts">
+      <iframe
+        class="contacts-map"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+    &q=Space+Needle,Seattle+WA"
+      >
+      </iframe>
+      <div class="contacts-form">
+        <h2 class="contacts-form__header">
+          GET IN TOUCH
+        </h2>
+        <div class="contacts-form__block">
+          <div class="contacts-form__block-location">
+            <ul class="contacts-form__block-location-list">
+              <li class="contacts-form__block-location-item">
+                <svg>
+                  <use xlink:href="./symbol-defs.svg#icon-maps"></use>
+                </svg>
+                <a href="https://goo.gl/maps/yd1nywmZG4ZvLp1b8">91 Nolan Extensions Suite 670</a></li>
+              <li class="contacts-form__block-location-item">
+                <svg>
+                  <use xlink:href="./symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+001 356-868-2454">+001 356-868-2454</a></li>
+              <li class="contacts-form__block-location-item">
+                <svg>
+                  <use xlink:href="./symbol-defs.svg#icon-drawer2"></use>
+                </svg>
+                <a href="mailto:montichello@service.com">montichello@service.com</a></li>
+              <li class="contacts-form__block-location-item">
+                <svg>
+                  <use xlink:href="./symbol-defs.svg#icon-clock"></use>
+                </svg>
+                <p>From 07:05AM to 19:30P</p></li>
+            </ul>
+          </div>
+          <div class="contacts-form__block-submit">
+            <form action="./index.html">
+              <input class="contacts-form__block-submit-item" type="text" id="fname" name="fname" placeholder="Name" required><br>
+              <input class="contacts-form__block-submit-item" type="text" id="lname" name="lname" placeholder="Email" required>
+              <input class="contacts-form__block-submit-button"  type="submit" value="Submit">
+            </form>
+            <!-- <ul class="contacts-form__block-submit-list">
+              <li class="contacts-form__block-submit-item"><input type="text" name="Name" id=""></li>
+              <li class="contacts-form__block-submit-item">2</li>
+              <li class="contacts-form__block-submit-item">3</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+      <div class="footer-logo">
+        <a class="footer-logo__link" href="./index.html"><img src="./images/Logo.png" alt="logo"></a>
+        <p class="footer-logo__copyrights">Copyrights © 2020 Montichello</p>
+      </div>
+      <div class="footer-social">
+        <div class="links">
+          <ul>
+            <li class="links-social">
+              <a href="https://www.facebook.com/"
+                ><img src="./images/./facebook-logo.svg" alt="facebook-link"
+              /></a>
+            </li>
+            <li class="links-social">
+              <a href="https://twitter.com/"
+                ><img src="./images/twitter-logo.svg" alt="twitter-link"
+              /></a>
+            </li>
+            <li class="links-social">
+              <a href="https://www.instagram.com/"
+                ><img src="./images/instagramm-logo.svg" alt="instagram-link"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </footer>
   </body>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <!-- Swiper -->
+  <script src="./js/swiper-bundl.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/modalWindow.js"></script>
+  <script src="./js/contacts.js"></script>
 </html>
