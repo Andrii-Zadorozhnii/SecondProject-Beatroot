@@ -25,13 +25,13 @@ var swiper = new Swiper(".swiper", {
     slidesPerView: 3,
     centeredSlides: false,
     spaceBetween: 30,
-    // slidesPerGroupSkip: 1,
+    slidesPerGroupSkip: 1,
     grabCursor: true,
     freeMode: true,
     loop: true,
     autoplay: {
         delay: 2500,
-        disableOnInteraction: false
+        disableOnInteraction: false,
     },
     keyboard: {
         enabled: true,
@@ -53,4 +53,9 @@ var swiper = new Swiper(".swiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        880:{
+            slidesPerView: 2,
+        }
+    }
 });

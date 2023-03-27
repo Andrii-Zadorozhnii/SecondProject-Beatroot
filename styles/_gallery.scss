@@ -23,6 +23,10 @@
 .gallery {
     padding: 150px 215px;
 
+    @media screen and (max-width: 1200px){
+        padding: 53px 20px;
+    }
+
     &-header {
         font-weight: 700;
         font-size: 44px;
